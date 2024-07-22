@@ -1,0 +1,150 @@
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #181818;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+  }
+  
+  .subftgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  
+  .subftgrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  
+  .subftgrid .list1ul ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .subftgrid .list1ul ul li {
+    display: block;
+  }
+  
+  .subftgrid .list2ul ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .subftgrid .list2ul ul li {
+    display: block;
+  }
+  
+  .subftgrid2 .list1ul1 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .subftgrid2 .list1ul1 ul li {
+    display: block;
+  }
+  
+  .subftgrid2 .list2ul1 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .subftgrid2 .list2ul1 ul li {
+    display: block;
+  }
+  
+  .list1ul {
+    margin-left: 50px;
+  }
+  
+  .ftgridhdr1 {
+    border-bottom: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.87rem;
+    margin-left: 50px;
+  }
+  
+  .ftgridhdr2 {
+    border-bottom: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.87rem;
+  }
+  
+  .ftgridhdr3 {
+    border-bottom: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.87rem;
+    margin-right: 50px;
+  }
+  
+  .subftgrid3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 20px;
+  }
+  
+  .subftgrid3 img {
+    max-height: 2rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .footer-grid a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #818181;
+    transform: transition 0.3;
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+  
+  .footer-grid a:hover {
+    color: #E5E4E4;
+    transition: 0.4s;
+  }
+  
+  .sub3items a img {
+    transition: 0.3s ease-in-out;
+  }
+  
+  .sub3items a img:hover {
+    transform: scale(1.2);
+  }
+
+  @media screen and (max-width: 900px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  
+    .ftgridhdr1 {
+      margin-left: 35px;
+      margin-right: 25px;
+    }
+  
+    .ftgridhdr2 {
+      margin-left: 35px;
+      margin-right: 25px;
+    }
+  
+    .ftgridhdr3 {
+      margin-left: 35px;
+    }
+  
+    .list1ul {
+      margin-left: 35px;
+    }
+  
+    .list1ul1 {
+      margin-left: 35px;
+    }
+  
+  }
